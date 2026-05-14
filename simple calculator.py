@@ -9,7 +9,7 @@ while True:
         return a*b
     def division(a,b):
         if b==0:
-            return "Cannot divide b zero"
+            return "Cannot divide by zero"
         return a/b
     print("simple calculator \n 1.Addition \n 2.Subtraction \n 3.Multipliation \n 4.Division")
     choice=int(input("Enter your choice (1-4):"))
